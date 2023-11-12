@@ -18,51 +18,64 @@ cont=0
 continua=0
 u=0
 
+
 for p in range (0,3):
     if cont==0:
         valor= int (input(f'Digite uma valor para [0,{cont}]: '))
         l1[0].append(valor)
+       
         cont +=1
     if cont==1: 
         valor= int (input(f'Digite uma valor para [0,{cont}]: '))
         l1[1].append(valor)
+        
         cont +=1
     else:
         valor= int (input(f'Digite uma valor para [0,{cont}]: '))
         l1[2].append(valor)
+       
         cont +=1
     if cont >=3:
         break
+
 for p in range (0,3):
     if continua==0:
         valor= int (input(f'Digite uma valor para [1,{continua}]: '))
         l2[0].append(valor)
+        
         continua +=1
     if continua==1: 
         valor= int (input(f'Digite uma valor para [1,{continua}]: '))
         l2[1].append(valor)
+       
         continua +=1
     else:
         valor= int (input(f'Digite uma valor para [1,{continua}]: '))
         l2[2].append(valor)
+        
         continua +=1
     if continua >=3:
         break
+
 for p in range (0,3):
     if u==0:
         valor= int (input(f'Digite uma valor para [2,{u}]: '))
         l3[0].append(valor)
+        
         u +=1
     if u==1: 
         valor= int (input(f'Digite uma valor para [2,{u}]: '))
         l3[1].append(valor)
+        
         u +=1
     else:
         valor= int (input(f'Digite uma valor para [2,{u}]: '))
         l3[2].append(valor)
+        
         u +=1
     if u >=3:
         break
+
 print(l1)
 print(l2)
 print(l3)
@@ -78,3 +91,5 @@ print()
 for i in l3:
     print(f' {i}',end='')
 print('\n')
+
+
