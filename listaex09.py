@@ -1,8 +1,8 @@
 '''
 Crie um programa que declare uma matriz de dimensão 3×3 e preencha com valores lidos pelo teclado. No final, mostre a matriz na tela, com a formatação correta.
 [P[0,0]][P[0,1]][P[0,2]]
-[P[0,0]][P[0,0]][P[0,0]]
-[P[0,0]][P[0,0]][P[0,0]]
+[P[1,0]][P[1,1]][P[1,2]]
+[P[2,0]][P[2,1]][P[2,2]]
 
 '''
 
